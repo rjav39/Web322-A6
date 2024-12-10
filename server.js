@@ -8,7 +8,7 @@
 *
 * Name: Rendell Velasco Student ID: 1400140218 Date: 09-12-24
 *
-* Published URL: ___________________________________________________________
+* Published URL: https://web322-a6-git-main-rendells-projects.vercel.app/
 *
 ********************************************************************************/
 const projectData = require("./modules/projects");
@@ -205,6 +205,6 @@ projectData.initialize()
   app.listen(HTTP_PORT, () => { 
     console.log(`server listening on: ${HTTP_PORT}`) });
 })
-.catch(function(err){
+.catch((err) => {
   console.log(`unable to start server: ${err}`);
  });;
